@@ -1,0 +1,35 @@
+{
+    "name": "vscode-atom-solarized",
+    "displayName": "Atom Solarized",
+    "description": "The solarized theme for VS Code based on Atom's implementation",
+    "version": "0.1.0",
+    "publisher": "DJBarnes",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DJBarnes/vscode-atom-solarized.git"
+    },
+    "engines": {
+        "vscode": "^1.5.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "logo.png",
+    "galleryBanner": {
+        "color": "#fdf6e3"
+    },
+    "contributes": {
+        "themes": [
+            {
+                "label": "Atom's Solarized Light",
+                "uiTheme": "vs",
+                "path": "./themes/Solarized (light).json"
+            },
+            {
+                "label": "Atom's Solarized Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Solarized (dark).json"
+            }
+        ]
+    }
+}

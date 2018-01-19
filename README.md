@@ -1,4 +1,4 @@
-# Atom / Sublime Hybrid Solarized
+# Atom / Sublime Hybrid Solarized For VS Code
 
 ## Solarized for VS Code
 Solarized is a color scheme created by [Ethan Schoonover](http://ethanschoonover.com/solarized).

@@ -47,7 +47,7 @@
          "name":"Number",
          "scope":"constant.numeric",
          "settings":{
-            "foreground":"#D33682"
+            "foreground":"#d33682"
          }
       },
       {
@@ -69,7 +69,7 @@
          "scope":"storage",
          "settings":{
             "fontStyle":"",
-            "foreground":"#859900"
+            "foreground":"#b58900"
          }
       },
       {
@@ -628,12 +628,26 @@
          "name":"PHP: Class Names",
          "scope":"support.class.php",
          "settings":{
-            "foreground":"#839496"
+            "foreground":"#859900"
          }
       },
       {
          "name":"PHP: []",
-         "scope":"keyword.operator.index-start.php, keyword.operator.index-end.php",
+         "scope":"punctuation.section.array.begin.php, punctuation.section.array.end.php",
+         "settings":{
+            "foreground":"#dc322f"
+         }
+      },
+			{
+         "name":"PHP: ()",
+         "scope":"punctuation.definition.parameters.begin.bracket.round.php, punctuation.definition.parameters.end.bracket.round.php, punctuation.definition.storage-type.begin.bracket.round.php, punctuation.definition.storage-type.end.bracket.round.php, punctuation.definition.arguments.begin.bracket.round.php, punctuation.definition.arguments.end.bracket.round.php, punctuation.definition.begin.bracket.round.php, punctuation.definition.end.bracket.round.php",
+         "settings":{
+            "foreground":"#dc322f"
+         }
+      },
+			{
+         "name":"PHP: {}",
+         "scope":"punctuation.definition.class.begin.bracket.curly.php, punctuation.definition.class.end.bracket.curly.php, punctuation.definition.begin.bracket.curly.php, punctuation.definition.end.bracket.curly.php",
          "settings":{
             "foreground":"#dc322f"
          }
@@ -669,7 +683,7 @@
       },
       {
          "name":"PHP: Numeric Constant",
-         "scope":"constant.numeric.php",
+         "scope":"constant.numeric.decimal.php",
          "settings":{
             "foreground":"#2aa198"
          }
@@ -678,7 +692,7 @@
          "name":"PHP: New",
          "scope":"keyword.other.new.php",
          "settings":{
-            "foreground":"#CB4B16"
+            "foreground":"#dc322f"
          }
       },
       {
@@ -693,7 +707,7 @@
          "name":"PHP: Other Property",
          "scope":"variable.other.property.php",
          "settings":{
-            "foreground":"#93a1a1"
+            "foreground":"#839496"
          }
       },
       {
@@ -718,10 +732,10 @@
       },
       {
          "name":"PHP: Inherited Class",
-         "scope":"meta.other.inherited-class.php",
+         "scope":"entity.name.type.class.php, meta.other.inherited-class.php",
          "settings":{
             "fontStyle":"",
-            "foreground":"#586e75"
+            "foreground":"#839496"
          }
       },
       {
@@ -735,7 +749,7 @@
          "name":"PHP: Function",
          "scope":"entity.name.function.php",
          "settings":{
-            "foreground":"#93a1a1"
+            "foreground":"#839496"
          }
       },
       {
@@ -747,9 +761,9 @@
       },
       {
          "name":"PHP: Function Call",
-         "scope":"entity.name.type.class.php, meta.function-call.php, meta.function-call.static.php, meta.function-call.object.php",
+         "scope":"meta.function-call.php, meta.function-call.static.php, meta.function-call.object.php",
          "settings":{
-            "foreground":"#839496"
+            "foreground":"#dc322f"
          }
       },
       {
@@ -757,7 +771,7 @@
          "scope":"keyword.other.phpdoc",
          "settings":{
             "fontStyle":"",
-            "foreground":"#93a1a1"
+            "foreground":"#6c71c4"
          }
       },
       {
@@ -772,6 +786,34 @@
          "scope":"storage.type.function.php",
          "settings":{
             "foreground":"#cb4b16"
+         }
+      },
+			{
+         "name":"PHP: Keyword Other Namespace",
+         "scope":"keyword.other.namespace.php",
+         "settings":{
+            "foreground":"#dc322f"
+         }
+      },
+			{
+         "name":"PHP: Keyword Other Use",
+         "scope":"keyword.other.use.php",
+         "settings":{
+            "foreground":"#dc322f"
+         }
+      },
+			{
+         "name":"PHP: Meta Namespace",
+         "scope":"meta.namespace.php",
+         "settings":{
+            "foreground":"#268bd2"
+         }
+      },
+			{
+         "name":"PHP: Support Other Namespace",
+         "scope":"support.other.namespace.php",
+         "settings":{
+            "foreground":"#93a1a1"
          }
       },
       {

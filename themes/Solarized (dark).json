@@ -330,7 +330,7 @@
          "name":"JS: Function Name",
          "scope":"meta.function.js, entity.name.function.js, support.function.dom.js",
          "settings":{
-            "foreground":"#b58900"
+            "foreground":"#93a1a1"
          }
       },
       {
@@ -350,7 +350,7 @@
       },
       {
          "name":"JS: Numeric Constant",
-         "scope":"constant.numeric.js",
+         "scope":"constant.numeric.js, constant.numeric.decimal.js",
          "settings":{
             "foreground":"#2aa198"
          }
@@ -367,6 +367,69 @@
          "scope":"storage.type.js",
          "settings":{
             "foreground":"#268BD2"
+         }
+      },
+			{
+         "name":"JS: Variable Dom",
+         "scope":"support.variable.dom.js",
+         "settings":{
+            "foreground":"#859900"
+         }
+      },
+			{
+         "name":"JS: Variable ReadWrite",
+         "scope":"variable.other.readwrite.js",
+         "settings":{
+            "foreground":"#93a1a1"
+         }
+      },
+			{
+         "name":"JS: Variable Object",
+         "scope":"variable.other.object.js",
+         "settings":{
+            "foreground":"#93a1a1"
+         }
+      },
+			{
+         "name":"JS: Variable Parameter",
+         "scope":"variable.parameter.js",
+         "settings":{
+            "foreground":"#93a1a1"
+         }
+      },
+			{
+         "name":"JS: Variable Property",
+         "scope":"variable.other.property.js",
+         "settings":{
+            "foreground":"#93a1a1"
+         }
+      },
+			{
+         "name":"JS: Punctuation Block",
+         "scope":"punctuation.definition.block.js",
+         "settings":{
+            "foreground":"#268BD2"
+         }
+      },
+			{
+         "name":"JS: Support Function",
+         "scope":"support.function.js",
+         "settings":{
+            "foreground":"#6c71c4"
+         }
+      },
+			{
+         "name":"JS: Entity Type",
+         "scope":"entity.name.type.js",
+         "settings":{
+            "foreground":"#b58900"
+         }
+      },
+			{
+         "name":"JS: Undefined",
+         "scope":"constant.language.undefined.js",
+         "settings":{
+            "foreground":"#859900"
          }
       },
       {
@@ -763,7 +826,7 @@
          "name":"PHP: Function Call",
          "scope":"meta.function-call.php, meta.function-call.static.php, meta.function-call.object.php",
          "settings":{
-            "foreground":"#dc322f"
+            "foreground":"#839496"
          }
       },
       {
@@ -814,6 +877,20 @@
          "scope":"support.other.namespace.php",
          "settings":{
             "foreground":"#93a1a1"
+         }
+      },
+			{
+         "name":"PHP Laravel: Laravel Blade",
+         "scope":"text.html.php.laravel-blade",
+         "settings":{
+            "foreground":"#839496"
+         }
+      },
+			{
+         "name":"PHP Laravel: Laravel Blade Constant",
+         "scope":"support.constant.laravel-blade",
+         "settings":{
+            "foreground":"#839496"
          }
       },
       {
@@ -1533,6 +1610,7 @@
 
 		// Workbench: Side Bar
 		"sideBar.background": "#00212B",
+		"sideBar.foreground": "#839496",
 		"sideBarTitle.foreground": "#93A1A1",
 		// "sideBarSectionHeader.background": "",
 
